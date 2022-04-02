@@ -1,0 +1,198 @@
+*{
+    
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0%;
+    padding: 0;
+}
+/*navbar*/
+#bmsce{
+    font-family: Arial;
+    font-weight: bolder;
+    font-size: x-large;
+    padding-right: 5px;
+}
+#hostels{
+    font-family: 'Rock Salt', cursive;
+    color:blue;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+#back-btn{
+    background-color: rgba(0,0,255,0.65);
+    font-weight: 900;
+    font-size: medium;
+    border-radius: 20%;
+    margin-left: 50px;
+}
+
+#back-btn:hover{
+   
+	box-shadow: 0px 0px 8px 5px #969696;
+}
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color: white;
+    color:black;
+    
+   
+}
+
+
+
+/*--end of navbar css--*/
+
+
+
+.boxes {
+    padding: 3% 2%;
+    
+    display:flex;
+    justify-content: space-around;
+}
+
+.boxes .formSection {
+   /* float: left;*/
+   
+    background-color: rgb(201, 201, 231);
+    font-family: "Times New Roman", Times, serif;
+   
+    margin-right: 5px;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-bottom: 1%;
+    
+    border-radius: 50px 50px 50px 50px;
+    transition: .2s;
+    
+}
+
+.boxes .formSection:hover {
+	transform: scale(1.05);
+	box-shadow: 0px 0px 8px 5px #969696;
+}
+
+.boxes .formSection h1 {
+    text-align: center;
+    padding-top: 5%;
+}
+
+.boxes .formSection p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.boxes .formSection img[src="googleLogo.png"] {
+    transition: .2s;
+}
+
+.boxes .formSection img[src="googleLogo.png"]:hover {
+    transform: scale(1.3);
+}
+
+.boxes .formSection .g-signin2 {
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.boxes .formSection .inputForm {
+    font-size: 20px;
+    padding: 5% 5%;
+    padding-right: 7%;
+}
+
+.boxes .formSection .inputForm a {
+    float: right;
+    text-decoration: none;
+}
+
+.boxes .formSection input {
+    padding: 2% 2%;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.boxes .formSection input[type="submit"] { 
+    color: white;
+    background-color: rgb(86, 86, 255);
+    width: 90%;
+    padding: 2% 0;
+    border: none;
+    border-radius: 10px 10px 10px 10px;
+    transition: .2s;
+}
+
+.boxes .formSection input[type="submit"]:hover {
+	transform: scale(1.05);
+    cursor: pointer;
+    background-color: rgb(60, 60, 250);
+    box-shadow: 0px 0px 8px 3px #888888;
+}
+
+.boxes .formSection .button { 
+    text-align: center;
+    padding: 3% 0;
+}
+
+.boxes .welcome {
+	padding-top: 1%;
+    width: 60%;
+    text-align: center;
+    background-color: rgb(201, 201, 231);
+   
+    
+    border-radius: 50px 50px 50px 50px;
+    transition: .2s;
+    margin-right: 1%;
+   
+ }
+ 
+ .boxes .welcome:hover {
+	transform: scale(1.05);
+	box-shadow: 0px 0px 8px 5px #969696;
+ }
+
+.boxes .welcome .largest {
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.boxes .welcome .large {
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+@media(max-width:600px){
+    #back-btn{
+        margin:5px;
+        
+        
+    }
+}
+
+@media(max-width:1000px){
+    .welcome{
+        
+        display: none;
+    }
+
+    .formSection{
+        width: 100%;
+       
+       
+        
+        
+    }
+    
+}

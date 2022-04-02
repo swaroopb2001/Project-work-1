@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+	<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="google-signin-client_id" content="312179050663-h4g0v69gobhomh095iiq37nmfqcdq47j.apps.googleusercontent.com">
+        <link rel="stylesheet" href="signin-style.css" type="text/css" />
+        
+
+	
+
+	<!--Google fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&family=Syne+Tactile&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        
+
+       <nav class="navbar"> 
+           <div class="back"><button id="back-btn">Back</button></div>
+            <div class="brand">
+                <span id="bmsce">BMSCE</span>
+                <span id="hostels">HOSTELS</span>
+            </div>
+              
+        </nav>
+
+
+	
+        <div class="boxes">
+            <div class="formSection" id="formSection" name="formSection">
+                <h1>SIGN IN</h1>
+                <form name="signInForm" action="#" target="_self" method="post" autocomplete="on">
+                    <div class="inputForm">
+                        <label>Bmsce Mail ID</label> <br>
+                        <input name="emailID" id="formEmail" type="email" placeholder="xyz.ac0@bmsce.ac.in" required> <br>
+                    </div>
+                    <div class="inputForm">
+                        <label>Password</label>
+                        <a href="#" style="font-size: 15px;">Forgot Password?</a>  <br>
+                        <input name="password" type="password" placeholder="**********" required> <br>
+                    </div>
+                    <div class="button">
+                        <input type="submit" value="Sign In" name="submit" onclick="validateEmail()">
+                    </div>
+                </form>
+                <p>
+                    Or <br>
+                    Sign In using <br><br>
+                    
+                </p>
+                <div class="g-signin2" data-onsuccess="onSignIn" data-ux_mode="redirect"></div>
+                <script src="validate.js"></script>
+               
+            </div>
+            <script src="https://apis.google.com/js/platform.js" async defer></script>
+
+            <div class="welcome">
+                <p>
+                    <span class="largest">Welcome Back,</span> <br><br>
+                    <span class="large">Buddy....</span>
+                   
+                </p>
+                <img src="welcome.png" alt="Greetings!" width="60%" height="60%">
+            </div>
+        </div>
+    </body>
+</html>

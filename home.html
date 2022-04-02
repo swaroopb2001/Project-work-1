@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&family=Syne+Tactile&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--NAVBAR-->
+    <nav class="navbar">
+        <div class="brand">
+            <span id="bmsce">BMSCE</span>
+            <span id="hostels">HOSTELS</span>
+        </div>
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+            <ul>
+
+                <li><a href="home.html" title="Home">Home</a></li>
+                <li><a href="#" title="Mess">Mess</a></li>
+                <li><a href="#" title="Boys hostel">For Boys</a></li>
+                <li><a href="#" title="Girls hostel">For Girls</a></li>
+                <li><a href="#" title="Internation hostel">International</a></li>
+                <button id="sign-in" type="button"  title="Sign in">Sign In</button>
+            </ul>
+        </div>
+
+    </nav>
+
+    <!--CAROUSEL-->
+    <div class="carousel">
+        <div class="slide">
+            <img src="pic1.jpg" alt="pic1">
+            <div class="caption">
+                caption1
+            </div>
+        </div>
+        <div class="slide">
+            <img src="pic2.jpg" alt="pic1">
+            <div class="caption">
+                caption2
+            </div>
+        </div>
+        <div class="slide">
+            <img src="pic3.jpg" alt="pic1">
+            <div class="caption">
+                caption3
+            </div>
+        </div>
+        <div class="slide">
+            <img src="pic4.jpg" alt="pic1">
+            <div class="caption">
+                caption4
+            </div>
+        </div>
+        <div class="slide">
+            <img src="pic5.jpg" alt="pic1">
+            <div class="caption">
+                caption5
+            </div>
+        </div>
+
+        <span class="arrow prev" onclick="controller(-1)">&#10094;</span>
+        <span class="arrow next" onclick="controller(1)">&#10095;</span>
+    </div>
+
+    <!--CONTENT DIVS-->
+
+    <!--ABOUT US-->
+    <div class="about-us">
+        <div class="about-us-title">About Us</div>
+
+
+        <div class="about-us-content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur magnam aspernatur eligendi animi omnis? Ex
+            quas libero, porro facere blanditiis ducimus repudiandae ut aspernatur deleniti fuga praesentium expedita
+            officiis in illo iusto ratione aperiam nobis sint laboriosam nostrum labore. Aperiam expedita ad deleniti!
+        </div>
+
+
+    </div>
+
+    <!--CONTACT US-->
+    <div class="contact-us">
+        <div class="contact-us-title">Contact Us</div>
+        <div class="contact-details">
+            <ul>
+                <li>Ph: 080-2662 2130</li>
+                <li>Email: www.bmsce.ac.in</li>
+                <li>Fax: +91-80-26614357</li>
+                <li><a
+                     href="https://www.google.com/maps/place/BMS+College+of+Engineering/@12.9410122,77.5633371,17z/data=!3m1!4b1!4m5!3m4!1s0x3bae158b11e34d2f:0x5f4adbdbab8bd80f!8m2!3d12.9410122!4d77.5655258"
+                     title="Click to open in google maps" id="address" target="_blank">
+                    P.O. Box No.: 1908 Bull Temple Road,<br>
+                    Bangalore - 560 019 Karnataka, India</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+
+
+
+
+    <script src="homepage.js"></script>
+</body>
+
+</html>
