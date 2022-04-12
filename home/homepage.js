@@ -52,5 +52,5 @@ function show(num){
 
 const btn= document.querySelector('#sign-in')
 btn.addEventListener('click', ()=>{
-    window.location.href="signin.html";
+    window.location.href="../signin/signin.html";
 })
